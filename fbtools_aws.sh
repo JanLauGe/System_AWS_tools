@@ -99,7 +99,8 @@ sudo apt-get install -y \
 
 # Install Google Test 1.7 ------------------------------------------------------
 cd ~/libraries
-wget https://github.com/google/googletest/archive/release-1.7.zip
+# old location wget https://github.com/google/googletest/archive/release-1.7.zip
+wget http://pkgs.fedoraproject.org/repo/pkgs/gtest/gtest-1.7.0.zip/2d6ec8ccdf5c46b05ba54a9fd1d130d7/gtest-1.7.0.zip #new location
 unzip release-1.7.zip
 mv ./googletest-release-1.7/ ./gtest-1.7/
 rm release-1.7.zip
